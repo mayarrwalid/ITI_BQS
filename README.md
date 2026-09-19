@@ -19,15 +19,17 @@ The system also provides queue status indications for empty and full conditions,
 - Seven-segment display outputs.
 - Verilog HDL implementation and simulation.
 
-## Design
-
-The project is implemented using a modular RTL architecture, with separate modules for edge detection, queue control, counting, waiting-time ROM, and display decoding.
-
 ## Architecture
-![Full System architecture diagram](top_bqs_horizontal_block_diagram.png)
 
-## Architecture
-![FSM Design](controller_fsm_detailed.png)
+The system is organized into several functional modules, with an FSM controlling the queue status and coordinating the overall operation.
+
+### Full System Architecture
+
+![Full System Architecture](top_bqs_horizontal_block_diagram.png)
+
+### Controller FSM
+
+![Controller FSM](controller_fsm_detailed.png)
 
 ## Tools
 
