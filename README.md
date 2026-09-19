@@ -23,6 +23,12 @@ The system also provides queue status indications for empty and full conditions,
 
 The project is implemented using a modular RTL architecture, with separate modules for edge detection, queue control, counting, waiting-time ROM, and display decoding.
 
+## Architecture
+![Full System architecture diagram](top_bqs_horizontal_block_diagram.png)
+
+## Architecture
+![FSM Design](controller_fsm_detailed.png)
+
 ## Tools
 
 - Verilog HDL
