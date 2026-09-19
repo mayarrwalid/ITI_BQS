@@ -8,7 +8,7 @@ The system uses photocells at the entrance and exit of the queue to detect clien
 
 The system also provides queue status indications for empty and full conditions, together with seven-segment display outputs for the main information.
 
-## Main Features
+## Main Features 
 
 - Client entry and exit detection using edge detectors.
 - Queue client counting using an up/down counter.
