@@ -35,4 +35,4 @@ The system is organized into several functional modules, with an FSM controlling
 
 - Verilog HDL
 - QuestaSim
-- Vivado
+
